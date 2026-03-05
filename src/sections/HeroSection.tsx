@@ -5,13 +5,13 @@ import AnimatedCounter from '../components/AnimatedCounter'
 const slideUp = (delay: number) => ({
   initial: { opacity: 0, y: 30 },
   animate: { opacity: 1, y: 0 },
-  transition: { duration: 0.7, delay, ease: [0.16, 1, 0.3, 1] },
+  transition: { duration: 0.7, delay, ease: [0.16, 1, 0.3, 1] as const },
 })
 
 const fadeIn = (delay: number) => ({
   initial: { opacity: 0 },
   animate: { opacity: 1 },
-  transition: { duration: 0.6, delay, ease: 'easeOut' },
+  transition: { duration: 0.6, delay, ease: 'easeOut' as const },
 })
 
 export default function HeroSection() {
