@@ -1,0 +1,145 @@
+/* ═══════════════════════════════════════════════════════
+   DRA. MAIKEIRY BÁEZ — NATURAL HEALTH GREEN
+   Design System · Variables · Global Styles
+   ═══════════════════════════════════════════════════════ */
+
+:root {
+  /* Fondos */
+  --bg-base:    #F2FAF5;
+  --bg-white:   #FFFFFF;
+  --bg-section: #E8F5ED;
+  --bg-dark:    #0D2218;
+
+  /* Verde — color del logo y la marca */
+  --green:        #2E7D32;
+  --green-mid:    #43A047;
+  --green-bright: #66BB6A;
+  --green-light:  #A5D6A7;
+  --green-pale:   #E8F5E9;
+
+  /* Blanco cálido */
+  --warm-white: #FAFFFE;
+
+  /* Acento lima */
+  --lime:      #8BC34A;
+  --lime-pale: #F1F8E9;
+
+  /* Textos */
+  --text-dark:  #0D2218;
+  --text-body:  #1B4332;
+  --text-muted: #6BAE84;
+
+  /* Bordes y sombras */
+  --border:       #C8E6C9;
+  --shadow-sm:    0 2px 14px rgba(46,125,50,0.08);
+  --shadow-md:    0 6px 36px rgba(46,125,50,0.12);
+  --shadow-lg:    0 20px 60px rgba(46,125,50,0.16);
+  --shadow-green: 0 8px 28px rgba(67,160,71,0.32);
+
+  /* Tipografía */
+  --font-display: 'Playfair Display', serif;
+  --font-body:    'Nunito', sans-serif;
+
+  /* Escala tipográfica */
+  --text-hero: clamp(42px, 5.5vw, 78px);
+  --text-h2:   clamp(30px, 3.5vw, 52px);
+  --text-h3:   clamp(18px, 2vw, 24px);
+  --text-body-size: 16px;
+}
+
+/* ─── Reset & Base ────────────────────────────────── */
+
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: var(--font-body);
+  font-size: var(--text-body-size);
+  color: var(--text-body);
+  background: var(--bg-base);
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  font-family: var(--font-body);
+}
+
+/* ─── Container ───────────────────────────────────── */
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 56px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0 20px;
+  }
+}
+
+/* ─── Keyframes ───────────────────────────────────── */
+
+@keyframes pulse-green {
+  0%, 100% { box-shadow: 0 0 0 3px rgba(102,187,106,0.35); }
+  50%      { box-shadow: 0 0 0 7px rgba(102,187,106,0.15); }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50%      { transform: translateY(-8px); }
+}
+
+@keyframes scroll-hint {
+  0%, 100% { opacity: 0.4; transform: translateY(0); }
+  50%      { opacity: 1; transform: translateY(6px); }
+}
+
+/* ─── Selection ───────────────────────────────────── */
+
+::selection {
+  background: var(--green-light);
+  color: var(--text-dark);
+}
+
+/* ─── Scrollbar ───────────────────────────────────── */
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-base);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--green-light);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--green-mid);
+}
