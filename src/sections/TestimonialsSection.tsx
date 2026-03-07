@@ -3,25 +3,25 @@ import SectionLabel from '../components/SectionLabel'
 
 const testimonials = [
   {
-    initials: 'LC',
-    name: 'Laura C.',
-    treatment: 'Sedación Consciente',
+    initials: 'MR',
+    name: 'María R.',
+    treatment: 'Implantes Dentales',
     stars: 5,
-    text: 'Tenía muchísimo miedo al dentista desde niña. La Dra. Maikeiry me ofreció la sedación consciente y fue una experiencia completamente diferente. Sin dolor, sin estrés. ¡La recomiendo al 100%!',
+    text: 'Excelente atención desde el primer momento. La Dra. Patrocino me devolvió la confianza en mi sonrisa con los implantes. Profesional, amable y con mucha paciencia. ¡100% recomendada!',
   },
   {
-    initials: 'RP',
-    name: 'Ramón P.',
+    initials: 'JL',
+    name: 'José L.',
+    treatment: 'Blanqueamiento Dental',
+    stars: 5,
+    text: 'El mejor blanqueamiento que me he hecho. El consultorio está super equipado y el equipo de Biodentis te hace sentir en confianza. Más de 8 años de experiencia se notan.',
+  },
+  {
+    initials: 'AP',
+    name: 'Ana P.',
     treatment: 'Ortodoncia',
     stars: 5,
-    text: 'La Dra. Báez es muy profesional y el consultorio está muy bien equipado con radiografía digital. Mi ortodoncia está quedando perfecta y el trato es excelente. Completamente satisfecho.',
-  },
-  {
-    initials: 'YM',
-    name: 'Yolanda M.',
-    treatment: 'Endodoncia + Prótesis',
-    stars: 5,
-    text: 'Dientes sanos para una vida sana — y lo cumplen al 100%. Me hicieron endodoncia y prótesis dental y los resultados son increíbles. Personal amable y muy actualizado en técnicas modernas.',
+    text: 'Mi ortodoncia va increíble. La Dra. Patrocino es muy dedicada y siempre me explica todo el proceso. El ambiente de Biodentis es super acogedor. La recomiendo a todos.',
   },
 ]
 

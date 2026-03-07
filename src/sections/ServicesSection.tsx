@@ -4,17 +4,16 @@ import SectionLabel from '../components/SectionLabel'
 import ServiceItem from '../components/ServiceItem'
 
 const services = [
-  { num: '01/', name: 'Prevención', desc: 'Profilaxis, sellantes y fluoruro para mantener dientes sanos.', img: '/images/CEO.jpeg' },
-  { num: '02/', name: 'Diagnóstico', desc: 'Evaluación completa + Radiografía Digital de precisión.', img: '/images/procedimiento.jpeg' },
-  { num: '03/', name: 'Ortodoncia', desc: 'Brackets y alineadores para una sonrisa perfectamente alineada.', img: '/images/examen.jpeg' },
-  { num: '04/', name: 'Cirugía Bucal', desc: 'Extracciones, apicectomías y procedimientos quirúrgicos.', img: '/images/procedimiento.jpeg' },
-  { num: '05/', name: 'Emergencias', desc: 'Atención urgente para dolor dental o accidentes bucales.', img: '/images/paciente-nina.jpeg' },
-  { num: '06/', name: 'Prótesis Dental', desc: 'Fijas y removibles que restauran función y estética.', img: '/images/examen.jpeg' },
-  { num: '07/', name: 'Endodoncia', desc: 'Tratamiento de conducto preciso y con mínimo dolor.', img: '/images/procedimiento.jpeg' },
-  { num: '08/', name: 'Periodoncia', desc: 'Tratamiento de encías y tejidos de soporte dental.', img: '/images/examen.jpeg' },
-  { num: '09/', name: 'Radiografía Digital', desc: 'Imágenes de alta precisión con mínima radiación.', img: '/images/procedimiento.jpeg' },
-  { num: '10/', name: 'Operatoria Dental', desc: 'Restauraciones y tratamiento de caries con materiales premium.', img: '/images/CEO.jpeg' },
-  { num: '11/', name: 'Sedación Consciente', desc: 'Tratamiento completamente sin estrés ni miedo.', img: '/images/CEO1.jpeg', special: true },
+  { num: '01/', name: 'Rehabilitación Bucal', desc: 'Restauración integral de la función y estética dental.', img: '/images/CEO.jpeg' },
+  { num: '02/', name: 'Prótesis Dental', desc: 'Fijas y removibles que restauran función y estética.', img: '/images/procedimiento.jpeg' },
+  { num: '03/', name: 'Endodoncia', desc: 'Tratamiento de conducto preciso y con mínimo dolor.', img: '/images/CEO.jpeg' },
+  { num: '04/', name: 'Blanqueamiento Dental', desc: 'Sonrisa más blanca y brillante con tecnología actualizada.', img: '/images/CEO2.jpeg' },
+  { num: '05/', name: 'Ortodoncia', desc: 'Brackets y alineadores para una sonrisa perfectamente alineada.', img: '/images/procedimiento.jpeg' },
+  { num: '06/', name: 'Estética Dental', desc: 'Diseño de sonrisa personalizado para cada paciente.', img: '/images/CEO.jpeg' },
+  { num: '07/', name: 'Periodoncia', desc: 'Tratamiento de encías y tejidos de soporte dental.', img: '/images/CEO2.jpeg' },
+  { num: '08/', name: 'Cirugía', desc: 'Extracciones y procedimientos quirúrgicos bucales.', img: '/images/procedimiento.jpeg' },
+  { num: '09/', name: 'Odontopediatría', desc: 'Cuidado dental especializado para los más pequeños.', img: '/images/CEO2.jpeg' },
+  { num: '10/', name: 'Implantes Dentales', desc: 'Implantes de alta calidad para restaurar tu sonrisa.', img: '/images/CEO.jpeg', special: true },
 ]
 
 export default function ServicesSection() {
@@ -66,7 +65,7 @@ export default function ServicesSection() {
               marginTop: '14px',
               marginBottom: '20px',
             }}>
-              Ofrecemos 11 especialidades para cuidar cada aspecto
+              Ofrecemos 10 especialidades para cuidar cada aspecto
               de tu salud bucal con tecnología actualizada.
             </p>
             <a

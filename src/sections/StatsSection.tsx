@@ -2,10 +2,10 @@ import { motion } from 'framer-motion'
 import AnimatedCounter from '../components/AnimatedCounter'
 
 const stats = [
-  { value: 783, suffix: '+', label: 'PACIENTES SATISFECHOS' },
-  { value: 11, suffix: '', label: 'ESPECIALIDADES DISPONIBLES' },
+  { value: 3026, suffix: '+', label: 'PACIENTES SATISFECHOS' },
+  { value: 10, suffix: '', label: 'ESPECIALIDADES DISPONIBLES' },
   { value: 100, suffix: '%', label: 'CUIDADO PERSONALIZADO' },
-  { value: 9, suffix: 'H', label: 'HORAS DE ATENCIÓN DIARIA' },
+  { value: 10, suffix: 'H', label: 'HORAS DE ATENCIÓN DIARIA' },
 ]
 
 export default function StatsSection() {

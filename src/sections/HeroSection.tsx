@@ -89,7 +89,7 @@ export default function HeroSection() {
                   display: 'block',
                 }}
               >
-                Dientes Sanos
+                Cuidamos
               </span>
             </motion.div>
 
@@ -105,7 +105,7 @@ export default function HeroSection() {
                   display: 'block',
                 }}
               >
-                Para Una
+                Tu Salud y
               </span>
             </motion.div>
 
@@ -120,8 +120,8 @@ export default function HeroSection() {
                   display: 'block',
                 }}
               >
-                Vida Sana.{' '}
-                <span style={{ fontStyle: 'normal' }}>💚</span>
+                Tu Bienestar.{' '}
+                <span style={{ fontStyle: 'normal' }}>💛</span>
               </span>
             </motion.div>
           </div>
@@ -139,9 +139,9 @@ export default function HeroSection() {
               marginTop: '24px',
             }}
           >
-            En nuestro consultorio ofrecemos una amplia gama de
-            servicios para cuidar tu salud bucal. Trabajamos todas
-            las especialidades con un equipo profesional actualizado.
+            Con más de 8 años cuidando de tu sonrisa. Ofrecemos
+            implantes, prótesis, ortodoncia, estética dental y más.
+            Un equipo profesional comprometido con tu bienestar.
           </motion.p>
 
           {/* CTA */}
@@ -156,7 +156,7 @@ export default function HeroSection() {
             }}
           >
             <a
-              href="https://linktr.ee/maikeirybaez"
+              href="https://wa.me/18294400885"
               target="_blank"
               rel="noopener noreferrer"
               style={{
@@ -200,7 +200,7 @@ export default function HeroSection() {
             >
               O Llama:{' '}
               <a
-                href="tel:8093660206"
+                href="tel:8095602295"
                 style={{
                   color: 'rgba(255,255,255,0.9)',
                   fontWeight: 600,
@@ -208,7 +208,7 @@ export default function HeroSection() {
                   paddingBottom: '1px',
                 }}
               >
-                809-366-0206
+                809-560-2295
               </a>
             </span>
           </motion.div>
@@ -236,7 +236,7 @@ export default function HeroSection() {
               lineHeight: 1.6,
             }}
           >
-            Consultorio abierto L-V 9AM–7PM.
+            Consultorio abierto L-V 8AM–6PM | Sáb 8AM–2PM.
             <br />
             ¡Agenda hoy mismo!
           </motion.p>
@@ -306,7 +306,7 @@ export default function HeroSection() {
               }}
             >
               <AnimatedCounter
-                target={783}
+                target={3026}
                 suffix="+"
                 style={{
                   fontFamily: 'var(--font-display)',

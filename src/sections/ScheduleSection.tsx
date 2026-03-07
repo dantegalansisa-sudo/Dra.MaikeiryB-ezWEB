@@ -80,7 +80,7 @@ export default function ScheduleSection() {
                   fontSize: '14px',
                   color: 'var(--text-body)',
                 }}>
-                  9:00 AM – 7:00 PM
+                  8:00 AM – 6:00 PM
                 </span>
                 <span style={{
                   width: '8px', height: '8px', borderRadius: '50%',
@@ -111,17 +111,33 @@ export default function ScheduleSection() {
                 fontWeight: 700,
                 fontSize: '14px',
                 color: 'var(--text-dark)',
+                letterSpacing: '0.03em',
               }}>
                 SÁBADOS
               </span>
-              <span style={{
-                fontFamily: 'var(--font-body)',
-                fontWeight: 400,
-                fontSize: '14px',
-                color: 'var(--text-muted)',
-              }}>
-                Consultar disponibilidad
-              </span>
+              <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+                <span style={{
+                  fontFamily: 'var(--font-body)',
+                  fontWeight: 600,
+                  fontSize: '14px',
+                  color: 'var(--text-body)',
+                }}>
+                  8:00 AM – 2:00 PM
+                </span>
+                <span style={{
+                  width: '8px', height: '8px', borderRadius: '50%',
+                  background: 'var(--green-bright)',
+                  animation: 'pulse-green 2s infinite',
+                }} />
+                <span style={{
+                  fontFamily: 'var(--font-body)',
+                  fontWeight: 600,
+                  fontSize: '11px',
+                  color: 'var(--green)',
+                }}>
+                  Disponible
+                </span>
+              </div>
             </div>
 
             {/* Row: Domingos */}
@@ -166,7 +182,7 @@ export default function ScheduleSection() {
             </p>
 
             <a
-              href="tel:8093660206"
+              href="tel:8095602295"
               style={{
                 display: 'inline-flex',
                 alignItems: 'center',
@@ -208,32 +224,38 @@ export default function ScheduleSection() {
             }}
           >
             <div style={{ display: 'flex', flexDirection: 'column', gap: '20px' }}>
-              <a href="tel:8093660206" style={{
+              <a href="tel:8095602295" style={{
                 display: 'flex', alignItems: 'center', gap: '12px',
                 fontFamily: 'var(--font-body)', fontWeight: 700, fontSize: '20px', color: 'white',
               }}>
-                📞 809-366-0206
+                📞 809-560-2295
               </a>
-              <a href="https://linktr.ee/maikeirybaez" target="_blank" rel="noopener noreferrer"
+              <span style={{
+                display: 'flex', alignItems: 'center', gap: '12px',
+                fontFamily: 'var(--font-body)', fontWeight: 700, fontSize: '20px', color: 'white',
+              }}>
+                📱 829-440-0885
+              </span>
+              <a href="https://biodentisrd" target="_blank" rel="noopener noreferrer"
                 style={{
                   display: 'flex', alignItems: 'center', gap: '12px',
                   fontFamily: 'var(--font-body)', fontWeight: 600, fontSize: '15px', color: 'rgba(255,255,255,0.85)',
                 }}
               >
-                🔗 linktr.ee/maikeirybaez
+                🔗 biodentisrd
               </a>
-              <a href="https://instagram.com/dramaikeirybaez" target="_blank" rel="noopener noreferrer"
+              <a href="https://instagram.com/biodentisrd" target="_blank" rel="noopener noreferrer"
                 style={{
                   display: 'flex', alignItems: 'center', gap: '12px',
                   fontFamily: 'var(--font-body)', fontWeight: 600, fontSize: '15px', color: 'rgba(255,255,255,0.85)',
                 }}
               >
-                📷 @dramaikeirybaez
+                📷 @biodentisrd
               </a>
             </div>
 
             <a
-              href={`https://wa.me/18093660206?text=${encodeURIComponent('Hola Dra. Maikeiry! Me interesa agendar una cita.')}`}
+              href={`https://wa.me/18294400885?text=${encodeURIComponent('Hola Biodentis! Me interesa agendar una cita.')}`}
               target="_blank"
               rel="noopener noreferrer"
               style={{

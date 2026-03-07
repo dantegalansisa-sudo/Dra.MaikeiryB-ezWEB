@@ -2,9 +2,9 @@ import { motion } from 'framer-motion'
 import SectionLabel from '../components/SectionLabel'
 
 const checks = [
-  'Especialista en Odontología Integral — Todas las especialidades',
-  'Pionera en Sedación Consciente en Santo Domingo',
-  '"Dientes sanos para una vida sana" — su filosofía de salud',
+  'Especialista en Implantes, Prótesis y Estética Dental',
+  'Más de 8 años de trayectoria en odontología',
+  '"Cuidamos de tu salud y tu bienestar" — su filosofía',
 ]
 
 export default function CEOSection() {
@@ -41,8 +41,8 @@ export default function CEOSection() {
             }} />
 
             <img
-              src="/images/CEO1.jpeg"
-              alt="Dra. Maikeiry Báez"
+              src="/images/CEO.jpeg"
+              alt="Dra. Patrocino"
               style={{
                 width: '100%',
                 borderRadius: '20px',
@@ -89,7 +89,7 @@ export default function CEOSection() {
                   fontSize: '13px',
                   color: 'var(--text-dark)',
                 }}>
-                  💚 Dra. Maikeiry Báez
+                  💛 Dra. Patrocino
                 </div>
                 <div style={{
                   fontFamily: 'var(--font-body)',
@@ -97,7 +97,7 @@ export default function CEOSection() {
                   fontSize: '11px',
                   color: 'var(--text-muted)',
                 }}>
-                  Directora · Odontología Integral
+                  CEO · Biodentis
                 </div>
               </div>
             </motion.div>
@@ -105,7 +105,7 @@ export default function CEOSection() {
 
           {/* Text right */}
           <div>
-            <SectionLabel text="DIRECTORA & FUNDADORA" />
+            <SectionLabel text="CEO & FUNDADORA" />
 
             <motion.h2
               initial={{ opacity: 0, y: 30 }}
@@ -122,9 +122,9 @@ export default function CEOSection() {
                 marginTop: '20px',
               }}
             >
-              Dra. Maikeiry
+              Dra.
               <br />
-              Báez
+              Patrocino
             </motion.h2>
 
             <motion.div
@@ -154,11 +154,7 @@ export default function CEOSection() {
                 marginTop: '20px',
               }}
             >
-              La Dra. Maikeiry Báez es la fundadora de este consultorio
-              odontológico, creado con la misión de ofrecer dientes sanos
-              para una vida sana. Con un equipo de profesionales con
-              experiencia y conocimientos actualizados, brinda la mejor
-              atención personalizada para cada paciente.
+              Soy Norkelys Patrocino, CEO de la familia Biodentis. Odontóloga de profesión y por vocación. Poseo un amplio conocimiento en el área, con una larga e impecable trayectoria de más de 7 años en la práctica.
             </motion.p>
 
             <motion.p
@@ -174,10 +170,7 @@ export default function CEOSection() {
                 marginTop: '16px',
               }}
             >
-              Pionera en el servicio de Sedación Consciente en Santo
-              Domingo, la Dra. Báez ofrece una alternativa única para
-              pacientes con ansiedad dental, garantizando tratamientos
-              cómodos y libres de estrés.
+              Me caracterizo por mostrar una enorme sonrisa a cada uno de mis pacientes, contagiándoles mi buena vibra, paciencia y disposición al momento de devolver la confianza y seguridad que depositan en mí.
             </motion.p>
 
             {/* Checks */}
@@ -225,8 +218,7 @@ export default function CEOSection() {
                 color: 'var(--text-body)',
                 lineHeight: 1.7,
               }}>
-                "¡Tu sonrisa es nuestra prioridad! Agenda tu cita hoy mismo
-                y descubre el cuidado personalizado que mereces."
+                "Soy una apasionada de la estética dental y me place brindar un servicio atento y personalizado a cada uno de mis pacientes."
               </p>
               <p style={{
                 fontFamily: 'var(--font-body)',
@@ -235,7 +227,7 @@ export default function CEOSection() {
                 color: 'var(--green)',
                 marginTop: '8px',
               }}>
-                — Dra. Maikeiry Báez
+                — Dra. Patrocino
               </p>
             </motion.div>
 

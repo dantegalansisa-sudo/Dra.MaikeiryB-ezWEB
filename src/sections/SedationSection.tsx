@@ -1,10 +1,10 @@
 import { motion } from 'framer-motion'
 
 const bullets = [
-  { icon: '💊', text: 'Ansiedad dental eliminada completamente' },
-  { icon: '😴', text: 'Relajación profunda durante el procedimiento' },
-  { icon: '🧠', text: 'Completamente consciente y responsivo' },
-  { icon: '✅', text: 'Recuperación rápida — vuelves a casa el mismo día' },
+  { icon: '🦷', text: 'Implantes de titanio de alta calidad' },
+  { icon: '😁', text: 'Resultado natural e indistinguible' },
+  { icon: '🔬', text: 'Tecnología y precisión avanzada' },
+  { icon: '✅', text: 'Durabilidad de por vida con cuidado adecuado' },
 ]
 
 export default function SedationSection() {
@@ -45,7 +45,7 @@ export default function SedationSection() {
                 letterSpacing: '0.1em',
                 color: 'var(--lime)',
               }}>
-                ⭐ SERVICIO EXCLUSIVO
+                ⭐ ESPECIALIDAD DESTACADA
               </span>
             </motion.div>
 
@@ -64,13 +64,13 @@ export default function SedationSection() {
                 marginTop: '24px',
               }}
             >
-              Sedación Consciente:
+              Implantes Dentales:
               <br />
               <span style={{ color: 'var(--green-bright)' }}>
-                Sin Miedo,
+                Tu Sonrisa,
               </span>
               <br />
-              Sin Estrés.
+              Restaurada.
             </motion.h2>
 
             <motion.div
@@ -102,12 +102,7 @@ export default function SedationSection() {
                 maxWidth: '480px',
               }}
             >
-              ¿Tienes miedo al dentista? La sedación consciente te
-              permite recibir tu tratamiento dental en un estado de
-              relajación profunda, completamente consciente pero sin
-              ansiedad, sin dolor y sin estrés. La Dra. Maikeiry Báez
-              es una de las pocas especialistas en ofrecer este
-              servicio en Santo Domingo.
+              ¿Perdiste un diente o necesitas restaurar tu sonrisa? Los implantes dentales son la solución más duradera y natural. En Biodentis contamos con la tecnología y experiencia para devolverte una sonrisa completa, funcional y estética.
             </motion.p>
 
             {/* Bullets */}
@@ -171,7 +166,7 @@ export default function SedationSection() {
                 e.currentTarget.style.boxShadow = 'none'
               }}
             >
-              AGENDAR SEDACIÓN →
+              AGENDAR CONSULTA →
             </motion.a>
           </div>
 
@@ -198,7 +193,7 @@ export default function SedationSection() {
 
             <img
               src="/images/procedimiento.jpeg"
-              alt="Sedación Consciente"
+              alt="Implantes Dentales"
               style={{
                 width: '100%',
                 borderRadius: '20px',
@@ -243,7 +238,7 @@ export default function SedationSection() {
                   fontSize: '12px',
                   color: 'var(--text-dark)',
                 }}>
-                  Dra. Maikeiry Báez
+                  Dra. Patrocino
                 </div>
                 <div style={{
                   fontFamily: 'var(--font-body)',
@@ -251,7 +246,7 @@ export default function SedationSection() {
                   fontSize: '11px',
                   color: 'var(--text-muted)',
                 }}>
-                  Sedación Consciente
+                  Implantes Dentales
                 </div>
               </div>
             </motion.div>

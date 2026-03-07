@@ -68,7 +68,7 @@ export default function Navbar() {
               color: 'var(--green)',
               lineHeight: 1.2,
             }}>
-              Dra. Maikeiry Báez
+              Biodentis
             </div>
             <div style={{
               fontFamily: 'var(--font-body)',
@@ -76,7 +76,7 @@ export default function Navbar() {
               fontSize: '11px',
               color: 'var(--text-muted)',
             }}>
-              Odontología Integral
+              Clínica Dental
             </div>
           </div>
         </a>
@@ -123,7 +123,7 @@ export default function Navbar() {
             color: 'var(--green)',
           }}>
             <span style={{ fontSize: '14px' }}>🕐</span>
-            L-V 9AM - 7PM
+            L-V 8AM-6PM | Sáb 8AM-2PM
           </div>
           <a
             href="#contact"

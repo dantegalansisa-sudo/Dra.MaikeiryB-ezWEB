@@ -8,8 +8,8 @@ const ToothLogo = () => (
 )
 
 const services = [
-  'Prevención', 'Ortodoncia', 'Endodoncia',
-  'Cirugía Bucal', 'Sedación Consciente', 'Prótesis Dental',
+  'Implantes Dentales', 'Ortodoncia', 'Endodoncia',
+  'Cirugía Bucal', 'Estética Dental', 'Prótesis Dental',
 ]
 
 export default function Footer() {
@@ -39,7 +39,7 @@ export default function Footer() {
                   fontSize: '15px',
                   color: 'white',
                 }}>
-                  Dra. Maikeiry Báez
+                  Biodentis
                 </div>
               </div>
             </div>
@@ -50,7 +50,7 @@ export default function Footer() {
               color: 'rgba(255,255,255,0.5)',
               lineHeight: 1.6,
             }}>
-              Dientes sanos para una vida sana 💚
+              Cuidamos de tu salud y tu bienestar 💛
             </p>
           </div>
 
@@ -108,7 +108,9 @@ export default function Footer() {
             }}>
               📅 Lunes a Viernes
               <br />
-              9:00 AM – 7:00 PM
+              8:00 AM – 6:00 PM
+              <br />
+              Sáb: 8:00 AM – 2:00 PM
             </p>
             <span style={{
               display: 'inline-flex',
@@ -148,23 +150,29 @@ export default function Footer() {
               Contacto
             </h4>
             <div style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
-              <a href="tel:8093660206" style={{
+              <a href="tel:8095602295" style={{
                 fontFamily: 'var(--font-body)', fontSize: '13px',
                 color: 'rgba(255,255,255,0.5)',
               }}>
-                📞 809-366-0206
+                📞 809-560-2295
               </a>
-              <a href="https://linktr.ee/maikeirybaez" target="_blank" rel="noopener noreferrer" style={{
+              <a href="tel:8294400885" style={{
                 fontFamily: 'var(--font-body)', fontSize: '13px',
                 color: 'rgba(255,255,255,0.5)',
               }}>
-                🔗 linktr.ee/maikeirybaez
+                📱 829-440-0885
               </a>
-              <a href="https://instagram.com/dramaikeirybaez" target="_blank" rel="noopener noreferrer" style={{
+              <a href="https://linktr.ee/biodentisrd" target="_blank" rel="noopener noreferrer" style={{
                 fontFamily: 'var(--font-body)', fontSize: '13px',
                 color: 'rgba(255,255,255,0.5)',
               }}>
-                📷 @dramaikeirybaez
+                🔗 biodentisrd
+              </a>
+              <a href="https://instagram.com/biodentisrd" target="_blank" rel="noopener noreferrer" style={{
+                fontFamily: 'var(--font-body)', fontSize: '13px',
+                color: 'rgba(255,255,255,0.5)',
+              }}>
+                📷 @biodentisrd
               </a>
             </div>
           </div>
@@ -183,7 +191,7 @@ export default function Footer() {
             fontSize: '12px',
             color: 'rgba(255,255,255,0.3)',
           }}>
-            © 2025 Dra. Maikeiry Báez | Odontología Integral · @dramaikeirybaez
+            © 2025 Biodentis | Clínica Dental · @biodentisrd
           </p>
         </div>
       </div>

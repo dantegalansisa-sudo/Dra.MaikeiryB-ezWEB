@@ -12,16 +12,16 @@ const ToothLogo = () => (
 )
 
 const serviceOptions = [
-  '💊 Sedación Consciente',
-  'Prevención / Limpieza',
-  'Diagnóstico + Radiografía Digital',
+  '🦷 Implantes Dentales',
   'Ortodoncia',
   'Cirugía Bucal',
-  'Emergencia Dental',
   'Prótesis Dental',
   'Endodoncia',
   'Periodoncia',
-  'Operatoria Dental',
+  'Rehabilitación Bucal',
+  'Blanqueamiento Dental',
+  'Estética Dental',
+  'Odontopediatría',
   'Consulta General',
 ]
 
@@ -36,9 +36,9 @@ export default function ContactSection() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()
-    const msg = `Hola Dra. Maikeiry! Soy ${form.nombre}. Me interesa: ${form.servicio}. ${form.mensaje}`
+    const msg = `Hola Biodentis! Soy ${form.nombre}. Me interesa: ${form.servicio}. ${form.mensaje}`
     window.open(
-      `https://wa.me/18093660206?text=${encodeURIComponent(msg)}`,
+      `https://wa.me/18294400885?text=${encodeURIComponent(msg)}`,
       '_blank'
     )
   }
@@ -126,7 +126,7 @@ export default function ContactSection() {
                     fontSize: '16px',
                     color: 'white',
                   }}>
-                    Dra. Maikeiry Báez
+                    Biodentis
                   </div>
                   <div style={{
                     fontFamily: 'var(--font-body)',
@@ -134,7 +134,7 @@ export default function ContactSection() {
                     fontSize: '12px',
                     color: 'var(--green-light)',
                   }}>
-                    Odontología Integral
+                    Clínica Dental
                   </div>
                 </div>
               </div>
@@ -147,35 +147,41 @@ export default function ContactSection() {
               }} />
 
               <div style={{ display: 'flex', flexDirection: 'column', gap: '18px' }}>
-                <a href="tel:8093660206" style={{
+                <a href="tel:8095602295" style={{
                   display: 'flex', alignItems: 'center', gap: '10px',
                   fontFamily: 'var(--font-body)', fontWeight: 600, fontSize: '15px', color: 'white',
                 }}>
-                  📞 809-366-0206
+                  📞 809-560-2295
                 </a>
-                <a href="https://linktr.ee/maikeirybaez" target="_blank" rel="noopener noreferrer" style={{
+                <a href="tel:8294400885" style={{
+                  display: 'flex', alignItems: 'center', gap: '10px',
+                  fontFamily: 'var(--font-body)', fontWeight: 600, fontSize: '15px', color: 'white',
+                }}>
+                  📱 829-440-0885
+                </a>
+                <a href="https://linktr.ee/biodentisrd" target="_blank" rel="noopener noreferrer" style={{
                   display: 'flex', alignItems: 'center', gap: '10px',
                   fontFamily: 'var(--font-body)', fontWeight: 400, fontSize: '14px', color: 'rgba(255,255,255,0.75)',
                 }}>
-                  🔗 linktr.ee/maikeirybaez
+                  🔗 biodentisrd
                 </a>
-                <a href="https://instagram.com/dramaikeirybaez" target="_blank" rel="noopener noreferrer" style={{
+                <a href="https://instagram.com/biodentisrd" target="_blank" rel="noopener noreferrer" style={{
                   display: 'flex', alignItems: 'center', gap: '10px',
                   fontFamily: 'var(--font-body)', fontWeight: 400, fontSize: '14px', color: 'rgba(255,255,255,0.75)',
                 }}>
-                  📷 @dramaikeirybaez
+                  📷 @biodentisrd
                 </a>
                 <div style={{
                   display: 'flex', alignItems: 'center', gap: '10px',
                   fontFamily: 'var(--font-body)', fontWeight: 400, fontSize: '14px', color: 'rgba(255,255,255,0.75)',
                 }}>
-                  ⏰ L-V 9:00AM - 7:00PM
+                  ⏰ L-V 8AM-6PM | Sáb 8AM-2PM
                 </div>
               </div>
             </div>
 
             <a
-              href={`https://wa.me/18093660206?text=${encodeURIComponent('Hola Dra. Maikeiry! Me interesa agendar una cita.')}`}
+              href={`https://wa.me/18294400885?text=${encodeURIComponent('Hola Biodentis! Me interesa agendar una cita.')}`}
               target="_blank"
               rel="noopener noreferrer"
               style={{

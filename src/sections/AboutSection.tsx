@@ -3,9 +3,9 @@ import SectionLabel from '../components/SectionLabel'
 
 const photos = [
   { src: '/images/CEO.jpeg', rotate: -8, radius: '16px 4px 4px 16px' },
-  { src: '/images/paciente-nina.jpeg', rotate: 5, radius: '4px 16px 16px 4px' },
+  { src: '/images/CEO2.jpeg', rotate: 5, radius: '4px 16px 16px 4px' },
   { src: '/images/procedimiento.jpeg', rotate: 7, radius: '16px 4px 4px 16px' },
-  { src: '/images/examen.jpeg', rotate: -5, radius: '4px 16px 16px 4px' },
+  { src: '/images/CEO2.jpeg', rotate: -5, radius: '4px 16px 16px 4px' },
 ]
 
 export default function AboutSection() {
@@ -32,7 +32,7 @@ export default function AboutSection() {
               <motion.img
                 key={i}
                 src={photos[i].src}
-                alt="Dra. Maikeiry Báez trabajando"
+                alt="Biodentis trabajando"
                 initial={{
                   x: -70,
                   rotate: photos[i].rotate - 4,
@@ -101,10 +101,10 @@ export default function AboutSection() {
                 margin: '20px auto 0',
               }}
             >
-              ¡Tu sonrisa es nuestra prioridad! En el Consultorio
-              Odontológico de la Dra. Maikeiry Báez nos dedicamos a
+              ¡Tu sonrisa es nuestra prioridad! En Biodentis nos dedicamos a
               transformar cada visita dental en una experiencia positiva,
-              con cuidado personalizado y tecnología actualizada.
+              con cuidado personalizado y más de 8 años de experiencia
+              cuidando tu bienestar.
             </motion.p>
 
             <motion.div

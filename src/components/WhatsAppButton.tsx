@@ -2,12 +2,12 @@ import { motion } from 'framer-motion'
 
 export default function WhatsAppButton() {
   const msg = encodeURIComponent(
-    'Hola Dra. Maikeiry! Me interesa agendar una cita. ¿Me puede ayudar?'
+    'Hola! Me interesa agendar una cita en Biodentis. ¿Me pueden ayudar?'
   )
 
   return (
     <motion.a
-      href={`https://wa.me/18093660206?text=${msg}`}
+      href={`https://wa.me/18294400885?text=${msg}`}
       target="_blank"
       rel="noopener noreferrer"
       initial={{ scale: 0, opacity: 0 }}
